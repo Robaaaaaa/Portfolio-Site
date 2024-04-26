@@ -62,13 +62,68 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
+  background-color:black;
+}
+footer {
+  background-color:rgb(88, 172, 88);
+}
+
+header {
+  background-color:green;
+}
+
+input {
+  background-color:rgba(87, 146, 24, 0.642);
+}
+
+textarea {
+  background-color:rgba(87, 146, 24, 0.642);
+}
+
+.socials { 
+  color:white;
+  padding: 1rem;
+  font-size:3rem;
+}
+
+.fa {
+  font-size: 20rem;
+}
+
+.bg-green-var {
+  background-color:rgba(87, 146, 24, 0.642)
+}
+
+.active {
+  background-color:rgba(129, 234, 17, 0.642)
+}
+
+button:hover {
+  background-color:rgba(47, 76, 16, 0.642);
+}
+
+button:active {
+  background-color:rgba(47, 67, 25, 0.642)
+}
+
+.pos {
+  flex: flex-col;
+  font-size: 5xl;
+}
+
+.text-orangered {
+  color:orangered;
+}
+
+.bg-black {
+  background-color:black;
 }
 
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
 3. Ensure horizontal rules are visible by default.
-*/
+*/  
 
 hr {
   height: 0;
@@ -737,6 +792,10 @@ video {
   border-color: rgb(15 23 42 / var(--tw-border-opacity));
 }
 
+.border-radius {
+  border-radius:50%;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -760,6 +819,16 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-orange-500 {
+  --tw-bg-opacity:1;
+  background-color:orange;
+}
+
+.bg-orange {
+  --tw-bg-opacity:1;
+  background-color:#d1af75;
 }
 
 .p-3 {

@@ -7,23 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockets Co</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
     <script src="js/main.js" defer></script>
 </head>
 
-<body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="bg-teal-700 text-white sticky top-0 z-10">
+<body class="min-h-screen bg-gray-darkest dark:bg-black dark:text-white">
+    <header class="bg-green text-white sticky top-0 z-10">
         <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
             <h1 class="text-3xl font-medium">
-                <a href="#hero"> 🚀Rockets Co</a>
+                <a href="#hero"> MY PORTFOLIO</a>
             </h1>
            <div>
                 <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer relative w-8 h-8">
                     <div class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[' '] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3  before:transition-all before:duration-500 after:content-[' '] after:bg-white after:w-8 after:h-1 after:rounded after:absolute  after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500"></div>
                 </button>
                 <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
-                    <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
-                    <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
-                    <a href="#contact" class="hover:opacity-90">Contact us</a>
+                    <a href="contact.html" class="hover:opacity-90">Contact Me</a>
+                    <!-- <a href="#testimonials" class="hover:opacity-90">Rate Your Website Experience</a> -->
+                    <a href="#  Projects" class="hover:opacity-90">My Projects</a>
                 </nav>
             </div>
         </section>
@@ -33,9 +35,8 @@
             </button>
             <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
                 <a href="#hero" class="w-full text-center py-6 hover:opacity-80" >Home</a>
-                <a href="#rockets" class="w-full text-center py-6 hover:opacity-80">Our Rockets</a>
-                <a href="#testimonials" class="w-full text-center py-6 hover:opacity-80">Testimonials</a>
-                <a href="#contact" class="w-full text-center py-6 hover:opacity-80">Contact us</a>
+                <a href="#projects" class="w-full text-center py-6 hover:opacity-80">My Projects</a>
+                <a href="contact.html" class="w-full text-center py-6 hover:opacity-80">Contact Me</a>
                 <a href="#footer" class="w-full text-center py-6 hover:opacity-80">Legal info.</a>
             </nav>
         </section>
@@ -45,189 +46,66 @@
         <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-40 widescreen:section-min-height tallscreen:section-min-height">
             <article class="sm:w-1/2">
                 <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
-                    We reach <span class="text-indigo-700 dark:text-indigo-300"> where humanity</span> has never reached before...
+                    Hey😉.I'm Robert Mwangi (Smart Red Crab) and welcome to my portfolio website.Here you will find some of my recent projects in web development and some of my earlier projects in python.
                 </h2>
                 <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
-                    We're building rockets for the next century today.From the Moon to Mars, Jupiter and beyond...
-                </p>
-                <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
-                    Think Rockets Co.
+                    I'm an aspiring Game Developer and I really hope that I'll one day work in <a href="https://www.rockstargames.com/" target="_blank" class="underline text-orangered">Rockstar Games</a>
                 </p>
             </article>
-            <img class="w-1/2" src="./img/dab1.png" alt="Rocket Dab"> 
+            <img class="w-1/2 border border-radius animate-bounce" src="./img/crab.png" alt="Me">
         </section>
-
-        <hr class="mx-auto bg-black dark:bg-white w-1/2">
-
-        <section id="rockets" class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
+        <section id="Web Dev" class="p-6 my-12 scroll-mt-0">
             <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                Our Rockets
+                Web Projects
             </h2>
-            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
-                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white
-                dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
-                    <img src="./img/ride.png" alt="Interstellar Explorer" class="mb-6 w-1/2">
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Interstellar</h3>
-                    <p class=" hidden sm:block text-3xl text-center
-                    mt-2 text-slate-500 dark:text-slate-400">$</p>
-                    <p class="sm:hidden text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">Affordable Exploration</p>
+        </section>
+        <section id="Python projects" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                MY PYTHON PROJECTS
+            </h2>
+            <ul class="mx-auto my-12 flex flex-col sm:flex-col items-center gap-8">
+                <li class=" flex flex-col items-center bg-slate-900 dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/weather.png" alt="Weather App img" class="mb-6" width="1100" height="658">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Weather App</h3>
+                    <p class="text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">A simple application made using <a href="https://docs.python.org/3/library/tk.html" class="text-orangered">Python's Tkinter</a> and a free api from <a href="WEATHER API - OpenWeatherMap" target="_blank" class="text-orangered">Open WeatherMap</a> that allows you to search for cities location together wit their time</p>
+                    <button class="bg-green-var active hover text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none"><a href="https://drive.google.com/drive/folders/1pV0JFXbIKgT_5M4kyCDPc9S0nNakGwtv?usp=drive_link" class="text-3xl text-center text-slate-900 dark:text-white">Weather App</a></button>
                 </li>
-                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white
-                dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
-                    <img src="./img/ride (2).png" alt="Space Slayer" class="mb-6 w-1/2">
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Space Slayer</h3>
-                    <p class=" hidden sm:block text-3xl text-center
-                    mt-2 text-slate-500 dark:text-slate-400">$$</p>
-                    <p class="sm:hidden text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">Best selling space vehicle</p>
+                <hr class="mx-auto bg-black dark:bg-white w-1/2">
+
+                <li class=" flex flex-col items-center bg-slate-900 dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/pixelDash.png" alt="Space Slayer" width="1100" height="658">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Pixel Dash</h3>
+                    <p class="text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">A simple endless 2d game made using python's <a href="https://www.pygame.org/docs/" class="text-orangered">pygame library</a> where you jump or not jump to avoid enemies</p>
+                    <button class="bg-green-var active hover text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none"><a href="https://drive.google.com/drive/folders/1IufTcmpBIEuD33pPuiM4jbqpR_CuVHbU?usp=drive_link" class="text-3xl text-center text-slate-900 dark:text-white">Pixel Dash</a></button>
                 </li>
-                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white
-                dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
-                    <img src="./img/launch.png" alt="Space Jet" class="mb-6 w-1/2">
-                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Space Jet</h3>
-                    <p class=" hidden sm:block text-3xl text-center
-                    mt-2 text-slate-500 dark:text-slate-400">$$$</p>
-                    <p class="sm:hidden text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">Where luxury meets exploration</p>
+                <hr class="mx-auto bg-black dark:bg-white w-1/2">
+                <li class=" flex flex-col items-center bg-slate-900 dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/SnakeGame.png" alt="SnakeGame Image" width="1100" height="658">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Snake Game</h3>
+                    <p class="text-2xl text-center mt-2  text-slate-500 dark:text-slate-400">A simple 2d game made using python's <a href="https://docs.python.org/3/library/tk.html" class="text-orangered">Python's Tkinter</a></p>
+                    <button class="bg-green-var active hover text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none"><a href="https://drive.google.com/drive/folders/15gDCghTnwBdk4jRGqM4q2t5Y2vx0jHUf?usp=drive_link" class="text-3xl text-center text-slate-900 dark:text-white">Snake Game</a></button>
                 </li>
             </ul>
         </section>
         <hr class="mx-auto bg-black dark:bg-white w-1/2">
-        <section id="testimonials" class="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height">
-            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                Testimonials
-            </h2>
-            <figure class="my-12">
-                <div class="bg-slate-800 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                    <blockquote class="bg-[#7dd3fc] dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                        <div class="flex items-center mb-0.1 text-teal-600">
-                            <!-- Star icons -->
-                            <svg class="w-5 h-5 me-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                            </svg>
-                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                            </svg>
-                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                            </svg>
-                            <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                            </svg>
-                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 0">
-                                <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                            </svg>
-                        </div>
-                        <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2">
-                            Rockets Co is so freaking cool. Their Space Slayer provided me an experience I'll never forget. Best Rocket manufacturer for Real 😁
-                        </p>
-                        <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
-                            &#8212; Cool Guy, Space Nerd
-                        </figcaption>
-                    </blockquote>
-                </div>
-            </figure>
-            <figure class="my-12">
-                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                    <div class="flex items-center mb-0.1 text-teal-600">
-                        <!-- Star icons -->
-                        <svg class="w-5 h-5 me-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 0">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                    </div>
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2">
-                        Rocket Co is by far the best Rocket company.Their interstellar Explorer was friendly to my pocket and I didn't have to sell my house or anything to buy the rocket.Five star experience for sure
-                    </p>
-                    <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
-                        &#8212; Broke Guy, Space Doctor
-                    </figcaption>
-                </blockquote>
-            </figure>
-            <figure class="my-12">
-                <blockquote class="bg-teal-600 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
-                    <div class="flex items-center mb-0.1 text-teal-600">
-                        <!-- Star icons -->
-                        <svg class="w-5 h-5 me-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                        <svg class="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="yellow" viewBox="0 0 20">
-                            <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                        </svg>
-                    </div>
-                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2">
-                        I'm giving Rocket Co 3 stars because my rocket arrived a little bit late😡,they said that there was a mix up in their delivery.But when it finally arrived the Spac Jet absolutely blew my mind away 🤯.
-                    </p>
-                    <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
-                        &#8212; Angry Dude,Rocket Critic
-                    </figcaption>
-                </blockquote>
-            </figure>
-        </section>
         
-        <hr class="mx-auto bg-black dark:bg-white w-1/2">
-        <section id="contact" class="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
-            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
-                Contact Us
-            </h2>
-            <form action="https://httpbin.org/get" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col items-left gap-4">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" required minlength="3" maxlength="60" placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"/>
-                <label for="message">Message:</label>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
-                <button class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
-            </form>
-        </section>
-        <section id="video" class="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height">
-            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Here's a clip from the very first moonlanding:</h2>
-            <video src="img/land.mp4" controls></video>
-        </section>
-        <section id="rate" class="p-6 my-12 scroll-mt-16 ">
-
-            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">How would you rate your website experience??</h2>
-            <div class="rating">
-                <input type="radio" id="star5" name="rating" value="5">
-                <label for="star5">☆</label>
-                <input type="radio" id="star4" name="rating" value="4">
-                <label for="star4">☆</label>
-                <input type="radio" id="star3" name="rating" value="3">
-                <label for="star3">☆</label>
-                <input type="radio" id="star2" name="rating" value="2">
-                <label for="star2">☆</label>
-                <input type="radio" id="star1" name="rating" value="1">
-                <label for="star1">☆</label>
-            </div>
-            
-        </section>
     </main>
 
-    <footer id="footer" class="bg-teal-700 text-white text-xl">
+    <footer id="footer" class="bg-green text-white text-xl">
         <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
             <address class="text-left">
-                <h2>Rockets Co,Inc.</h2>
-                586 Galaxy <br>
-                Infinity,Space City 12345-5555 <br>
-                EMAIL: <a href="@RocketsCo@gmail.com">RocketsCo@gmail.com </a>
-                <br>
-                Phone: <a href="tel:+55545985621">0145985621</a>
-                
+                <h2>Robert Mwangi.</h2>
+                Web Developer. <br>
+                Thika,254 <br>
+                <a href="" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/robert-mwangi-784908262?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2whfOEIISzefLBYp3MAeLw%3D%3D" class="fa fa-linkedin" target="_blank"></a><br>
+                <a href="mailto:linkmash030@gmail.com" class="fa fa-google" target="_blank"></a>
+                <a href="tel:+254708362796" class="fa fa-phone"></a>  
             </address> 
             <nav class="hidden md:flex flex-col gap-1 text-center col-span-0" aria-label="footer">
                 <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
                 <a href="#testimonials" class="hover:opacity-90">Testimonials</a>
-                <a href="#contact" class="hover:opacity-90">Contact Us</a>
+                <a href="contact.html" class="hover:opacity-90">Contact Me</a>
             </nav>
             <div class="flex flex-col sm:gap-2">
                 <p class="text-right">

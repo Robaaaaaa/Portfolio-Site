@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body class="min-h-screendark:text-white">
+    <header class="text-white sticky top-0 z-10">
+        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-2xl text-center">Contact Me</h1>
+            <div>
+                <button id="hamburger-button" class="text-3xl md:hidden cursor-pointer relative w-8 h-8">
+                    <div class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5 transition-all duration-500 before:content-[' '] before:bg-white before:w-8 before:h-1 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3  before:transition-all before:duration-500 after:content-[' '] after:bg-white after:w-8 after:h-1 after:rounded after:absolute  after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500"></div>
+                </button>
+                <nav class="hidden md:block space-x-8 text-xl flex flex-row" aria-label="main">
+                    <a href="index.html#rate" class="hover:opacity-90 text-black">Rate Your Website Experience</a>
+                    <a href="# Projects" class="hover:opacity-90">My Projects</a>
+                    <a href="index.html">HomePage</a>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <section id="mobile-menu" class="absolute top-68 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden">
+        <button class="text-8xl self-end px-6">
+            
+        </button>
+        <nav class="flex flex-col min-h-screen items-center py-8" aria-label="mobile">
+            <a href="index.html" class="w-full text-center text-white py-6 hover:opacity-80" >Home</a>
+            <a href="#projects" class="w-full text-center text-white py-6 hover:opacity-80">My Projects</a>
+            <a href="#rate" class="w-full text-center text-white py-6 hover:opacity-80">Rate Your Website Experience</a>
+            <a href="#footer" class="w-full text-center text-white py-6 hover:opacity-80">Legal info.</a>
+        </nav>
+    </section>
+</header>
+    <section id="contact" class="p-6 m-1 scroll-mt-1 widescreen:section-min-height tallscreen:section-min-height">
+        <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+           Leave me a message:
+        </h2>
+        <form action="https://httpbin.org/get" class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col gap-4">
+            <label for="Your Name">Your Name:</label>
+            <input type="text" id="Your Name" required minlength="4" maxlength="50" placeholder="Your Name"
+            class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" required minlength="3" maxlength="60" placeholder="Your Subject" class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"/>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"></textarea>
+            <button class="bg-green-var active hover text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">Submit</button>
+        </form>
+    </section>
+    <section class="max-w-4xl mx-auto text-2xl sm:text-3xl flex flex-col gap-4">  
+        <h2 class="socials__h2 text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Socials:</h2>
+        <p class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">Here are the links to my socials if you'd like to contact me:</p>
+        <a href="" class="fa fa-instagram text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/robert-mwangi-784908262?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2whfOEIISzefLBYp3MAeLw%3D%3D" class="fa fa-linkedin font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white text-5xl" target="_blank"></a><br>
+        <a href="mailto:linkmash030@gmail.com" class="fa fa-google text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white" target="_blank"></a>
+        <a href="tel:+254708362796" class="fa fa-phone text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white"></a>
+    </section>
+    <section>
+        <footer>
+            <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between">
+                <address class="text-left">
+                    <h2>Robert Mwangi.</h2>
+                    Web Developer. <br>
+                    Thika,254 <br>
+                      
+                </address> 
+                <nav class="hidden md:flex flex-col gap-1 text-center col-span-0" aria-label="footer">
+                    <a href="#hero" class="hover:opacity-90">Back to Home</a>
+                </nav>
+                <div class="flex flex-col sm:gap-2">
+                    <p class="text-right">
+                        Copyright &copy; <span id="2024">2024</span>
+                    </p>
+                    <p class="text-right">All Rights Reserved</p>
+                </div>
+            </section>
+        </footer>
+    </section>
+    
+</body>
+</html>
