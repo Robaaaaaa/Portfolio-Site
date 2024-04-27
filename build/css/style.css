@@ -62,14 +62,9 @@ body {
   /* 1 */
   line-height: inherit;
   /* 2 */
-  background-color:black;
 }
 footer {
   background-color:rgb(88, 172, 88);
-}
-
-header {
-  background-color:green;
 }
 
 input {
